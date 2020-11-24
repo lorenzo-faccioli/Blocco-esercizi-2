@@ -17,11 +17,7 @@ int main()
 
         if (NumInput > NumMAX) {
             NumMAX = NumInput;
-        } else if (NumInput == NumMAX) {
-            NumMAX = NumMAX;
-        } else {
-            NumMAX = NumMAX;
-        }
+        } 
     }
         cout << "il numero più grande tra quelli che hai inserito vale " << NumMAX;
         return 0;
